@@ -1,0 +1,610 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>CRM Test Suite Results</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">CRM Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 31, 2024 10:37:04 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CreateTourpackageAndVerifyCountTest</p>
+            <p class="text-sm">
+              <span>10:37:09 PM</span> / <span>00:00:07:493</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">CreateTourpackageAndVerifyCountTest</h5>
+<span class='badge badge-success'>05.31.2024 10:37:09 PM</span>
+<span class='badge badge-danger'>05.31.2024 10:37:17 PM</span>
+<span class='badge badge-default'>00:00:07:493</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:09 PM</td>
+        <td>
+          CreateTourpackageAndVerifyCountTest==> STARTED <====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:09 PM</td>
+        <td>
+          navigate to loginpage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:12 PM</td>
+        <td>
+          navigate to Admin homepage and create tourpackage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:16 PM</td>
+        <td>
+          navigate to dashboard and verify total package count is increased or not
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:17 PM</td>
+        <td>
+          CreateTourpackageAndVerifyCountTest==> COMPLETED <====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">BookTourAndVerifyTest</p>
+            <p class="text-sm">
+              <span>10:37:19 PM</span> / <span>00:00:17:498</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">BookTourAndVerifyTest</h5>
+<span class='badge badge-success'>05.31.2024 10:37:19 PM</span>
+<span class='badge badge-danger'>05.31.2024 10:37:37 PM</span>
+<span class='badge badge-default'>00:00:17:498</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:19 PM</td>
+        <td>
+          BookTourAndVerifyTest==> STARTED <====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:20 PM</td>
+        <td>
+          navigate to login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:31 PM</td>
+        <td>
+          book tour package
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:35 PM</td>
+        <td>
+          navigate to my tour history and verify tour is booked
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:37 PM</td>
+        <td>
+          BookTourAndVerifyTest==> COMPLETED <====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">BookTourAndCancelTest</p>
+            <p class="text-sm">
+              <span>10:37:40 PM</span> / <span>00:00:27:115</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">BookTourAndCancelTest</h5>
+<span class='badge badge-success'>05.31.2024 10:37:40 PM</span>
+<span class='badge badge-danger'>05.31.2024 10:38:07 PM</span>
+<span class='badge badge-default'>00:00:27:115</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:40 PM</td>
+        <td>
+          BookTourAndCancelTest==> STARTED <====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:40 PM</td>
+        <td>
+          navigate to login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:51 PM</td>
+        <td>
+          book tour package
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:54 PM</td>
+        <td>
+          navigate to my tour history and cancel booking
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:37:59 PM</td>
+        <td>
+          navigate to write us link and select cancellation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:06 PM</td>
+        <td>
+          navigate to Issue tickets and verify issue is raised
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:38:07 PM</td>
+        <td>
+          BookTourAndCancelTest==> COMPLETED <====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CreateTourpackageAndVerifyInUserTest</p>
+            <p class="text-sm">
+              <span>10:38:10 PM</span> / <span>00:00:18:595</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">CreateTourpackageAndVerifyInUserTest</h5>
+<span class='badge badge-success'>05.31.2024 10:38:10 PM</span>
+<span class='badge badge-danger'>05.31.2024 10:38:28 PM</span>
+<span class='badge badge-default'>00:00:18:595</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+        <a href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABVYAAAJXCAIAAAD3oJhuAAAAAXNSR0IArs4c6QAAFDRJREFUeJzt3UFu28gWhlEVi4MGvINeRe8oa8uOehW9gAACMiBVPahnQpDaeKYikxH/cwYC49jAhcHJ/VCkS2vtxOe01uZ5nuf558+f5/P5zz//3HsiAACAl/fPP/+8vb398ccftdZaayll74lew48fP9b+yPA1kwAAAAC/FwkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAADH8e3bt4/+SwIAAACAg+j7/0cVQAIAAACAI7je/P+zAkgAAAAA8PLud/77r4wbzgMAAAB8ie/fv//f73EKAAAAACJIAAAAABBBAgAAAIAIEgAAAABEkAAAAAAgggQAAAAAESQAAAAAiCABAAAAQAQJAAAAACJIAAAAABBBAgAAAIAIEgAAAABEkAAAAAAgggQAAAAAESQAAAAAiCABAAAAQAQJAAAAACJIAAAAABBBAgAAAIAIEgAAAABEkAAAAAAgggQAAAAAESQAAAAAiCABAAAAQAQJYJ1Sys0FAAAAv8KetRkJAAAAACJIAI8opahTAAAAT2HD2owEsFq/O4fBrw4AAOAJhmFQAbZhj12t7/+11r0HAQAAOIJaa68Aew9yfBLAOssRgHEc954FAADgCMZxdBBgGxLAOv2mrLVKAAAAAE8xjmOtVQLYgD12hVJKa205BXA+n6dpmqZpnufL5dJaO51O/RMAAIB7fclfHq8e3y0PAqgAX0oCWG15F+DSAvr+b/kHAAD4jOUJ6x4C+oXlfwMSwDrXBwH6Z3u392gAAAAvo9xxBGADEsBqSwXoFzfLvxYAAADwkZsl//r5f/v/BiSAR/RbcwkBe48DAADwwmxVm5EAHuc2BQAA4IVIAAAAAPCq/v777898219//XU6nYavnwcAAADYnwQAAAAAESQAAAAAiCABAAAAQAQJAAAAACJIAAAAABBBAgAAAIAIEgAAAABEkAAAAAAgggQAAAAAESQAAAAAiCABAAAAQAQJAAAAACJIAAAAABBBAgAAAIAIEgAAAABEkAAAAAAgggQAAAAAESQAAAAAiFBaa3vPAAAAAKzz48ePtT8yfs0kEdQTAACAX1dK2XuEFBLAI5blv7V2EwJ0AQAAgI/cbPullFL+dzhdCNiABLBavzvbnb3nAgAAeBnlTmtNBfhqEsA6y/5/uVwul8s8z/1CBQAAAPikvvMPwzAMQ621X6gAG5AAVuv7/zzP07seApY6sPeAAAAAv6m+4ff9v9Y6vjudTr0C7D3gwUkAK1wfAZim6e3tbe+JAAAAXt75fPY4wDaGvQd4Mf3Afz8CsPcsAAAAR9DPVnu8egMSwDr9puynAPaeBQAA4AimafKGtW1IAKst7wLYexAAAIAjuH69Gl9KAlhtOQiw9yAAAABH4AjAZiSAR7g7AQAAnsWGtRkJAAAAACJIAOssaUqjAgAAeAp71mYkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECQAAAAAiSAAAAAAQQQIAAACACBIAAAAARJAAAAAAIIIEAAAAABEkAAAAAIggAQAAAEAECWCdUsrNBQAAAL/CnrUZCQAAAAAiSACPKKWoUwAAAE9hw9qMBLBavzuHwa8OAADgCYZhUAG2YY9dre//tda9BwEAADiCWmuvAHsPcnwSwDrLEYBxHPeeBQAA4AjGcXQQYBsSwDr9pqy1SgAAAABPMY5jrVUC2IA9doVSSmttOQVwPp+naZqmaZ7ny+XSWjudTv0TAACAe33JXx6vHt8tDwKoAF9KAlhteRfg0gL6/m/5BwAA+IzlCeseAvqF5X8DEsA61wcB+md7t/doAAAAL6PccQRgAxLAaksF6Bc3y78WAAAA8JGbJf/6+X/7/wYkgEf0W3MJAXuPAwAA8MJsVZuRAB7nNgUAAOCF+KOAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARxr0HeGGttb1HAAAAeHmllL1HSCEBPGJZ/ltrNyFAFwAAAPjIzbZfSiml9DVKCNiABLBavzvbnb3nAgAAeBnlTmtNBfhqEsA6y/5/uVwul8s8z/1CBQAAAPikvvMPwzAMQ621X6gAG5AAVuv7/zzP07seApY6sPeAAAAAv6m+4ff9v9Y6vjudTr0C7D3gwUkAK1wfAZim6e3tbe+JAAAAXt75fPY4wDb8UcB1+oH/fgRg71kAAACOoJ+t9nj1BiSAdfpN2U8B7D0LAADAEUzT5A1r25AAVlveBbD3IAAAAEdw/Xo1vpQEsNpyEGDvQQAAAI7AEYDNSACPcHcCAAA8iw1rMxIAAAAARJAA1lnSlEYFAADwFPaszUgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEAAABABAkAAAAAIkgAAAAAEEECAAAAgAgSAAAAAESQAAAAACCCBAAAAAARJAAAAACIIAEA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" data-featherlight="image"><span class="badge badge-gradient-primary">base64 img</span></a>
+        <div class="title">CreateTourpackageAndVerifyInUserTest_Fri_May_31_22_38_28_IST_2024</div>
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:10 PM</td>
+        <td>
+          CreateTourpackageAndVerifyInUserTest==> STARTED <====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:10 PM</td>
+        <td>
+          navigate to login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:12 PM</td>
+        <td>
+          navigate to homepage and create tour package
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:15 PM</td>
+        <td>
+          logout from admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:17 PM</td>
+        <td>
+          navigate to user login page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:27 PM</td>
+        <td>
+          navigate to tour package link
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:28 PM</td>
+        <td>
+          verify the created tour package in user account
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>10:38:28 PM</td>
+        <td>
+          CreateTourpackageAndVerifyInUserTest==> FAILED <====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">CreateTourpackageAndLogoutTest</p>
+            <p class="text-sm">
+              <span>10:38:31 PM</span> / <span>00:00:07:804</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">CreateTourpackageAndLogoutTest</h5>
+<span class='badge badge-success'>05.31.2024 10:38:31 PM</span>
+<span class='badge badge-danger'>05.31.2024 10:38:39 PM</span>
+<span class='badge badge-default'>00:00:07:804</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:31 PM</td>
+        <td>
+          CreateTourpackageAndLogoutTest==> STARTED <====
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:31 PM</td>
+        <td>
+          navigate to loginpage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:33 PM</td>
+        <td>
+          navigate to Admin homepage and create tourpackage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:36 PM</td>
+        <td>
+          verify created tour package
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>10:38:36 PM</td>
+        <td>
+          logout as admin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:38:39 PM</td>
+        <td>
+          CreateTourpackageAndLogoutTest==> COMPLETED <====
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 31, 2024 10:37:04 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 31, 2024 10:38:40 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='80%'>
+<b>4</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='20%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='12%'><b>4</b> events passed</small></div>
+<div>
+<small data-tooltip='3%'><b>1</b> events failed,
+<b data-tooltip='%'>26</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"CreateTourpackageAndVerifyCountTest":7.493,"BookTourAndVerifyTest":17.498,"BookTourAndCancelTest":27.115,"CreateTourpackageAndVerifyInUserTest":18.595,"CreateTourpackageAndLogoutTest":7.804
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows-10</td>
+</tr>
+<tr>
+<td>BROWSER</td>
+<td>CHROME-100</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 4,
+failEvents: 1,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 26
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
